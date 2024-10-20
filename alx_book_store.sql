@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS Books (
 
 CREATE TABLE IF NOT EXISTS Customers(
     customer_id INT PRIMARY KEY,
-    customer_name varchar(215),
+    customer_name VARCHAR(215),
     email VARCHAR(215)
     address TEXT
 );
